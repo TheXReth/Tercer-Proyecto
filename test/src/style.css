@@ -1,0 +1,225 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+	height: 100%;	
+}
+
+body {
+	background-image:url('images/fondotest.png');
+	background-repeat: repeat;
+	background-position: center;	font-family: Arial,Verdana;
+	color: #FF5900;
+	text-shadow: 0px 0px 10px rgba(230,100,50,1);
+	min-height: 730px;
+}
+
+.cajaCentrada {
+	height: 560px;
+	width: 600px;
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+	background-color: #222222;
+	border-radius: 14px 14px 0px 0px;
+	-webkit-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.43);
+	-moz-box-shadow:    11px 11px 30px 0px rgba(0, 0, 0, 0.43);
+	box-shadow:         11px 11px 30px 0px rgba(0, 0, 0, 0.43);
+	margin-top: 130px;
+}
+
+.cajaSuperior {
+	line-height: 45px;
+	width: 600px;
+	height: 50px;
+	background-color: #080808;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.cajaSuperior:after {
+	content: " ";
+    display:block;
+    position: relative;
+	top:0px;
+	left:0px;
+    width:100%;
+    height:22px;
+    background: linear-gradient(#080808 0%, transparent 0%), linear-gradient(135deg, #222222	 33.33%, transparent 33.33%) 0 0%, #222222	 linear-gradient(45deg, #222222	 33.33%, #080808 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#080808 0%, transparent 0%), -webkit-linear-gradient(135deg, #222222	 33.33%, transparent 33.33%) 0 0%, #222222	 -webkit-linear-gradient(45deg, #222222	 33.33%, #080808 33.33%) 0 0%;
+    background: -o-linear-gradient(#080808 0%, transparent 0%), -o-linear-gradient(135deg, #222222	 33.33%, transparent 33.33%) 0 0%, #222222	 -o-linear-gradient(45deg, #222222	 33.33%, #080808 33.33%) 0 0%;
+    background: -moz-linear-gradient(#080808 0%, transparent 0%), -moz-linear-gradient(135deg, #222222	 33.33%, transparent 33.33%) 0 0%, #222222	 -moz-linear-gradient(45deg, #222222	 33.33%, #080808 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 20px 15px, 20px 15px;
+}
+
+.cajaSuperior h1 {
+	text-align: center;
+}
+
+form {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+form input[type=text],input[type=password] {
+	margin-left: 20px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+
+	border: thin solid #FF5900;
+	background-color: #080808;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	color: #FF5900;
+
+}
+
+a#volver {
+
+	top: 80px;
+	left: -500px;
+	right: 0;
+
+	margin: auto;
+	position: absolute;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	display: block;
+	line-height: 40px;
+
+	font-size: 23px;
+
+	border: thin solid #FF5900;
+	background-color: #151515;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	color: #FF5900;
+	
+}
+
+a#volver:hover {
+	background-color: #080808;
+}
+
+form input[type=text]:focus,input[type=password]:focus {
+	-webkit-box-shadow: 0px 0px 11px 0px #FF5900;
+	-moz-box-shadow:    0px 0px 11px 0px #FF5900;
+	box-shadow:         0px 0px 11px 0px #FF5900;
+}
+
+form input[type=submit] {
+	margin-left: 175px;
+	height: 40px;
+	width: 250px;
+	text-align: center;
+
+	font-size: 23px;
+
+	border: thin solid #FF5900;
+	background-color: #151515;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	color: #FF5900;
+	
+}
+
+a:link {
+	color: #FF5900;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF5900;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF5900;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FF5900;
+	text-decoration: none;
+}
+
+form input[type=submit]:hover{
+
+	background-color: #080808;
+}
+
+form label {
+	float: left;
+	display: block;
+	width: 225px;
+	text-align: right;
+	line-height: 30px;
+}
+
+.cajaInferior{
+	width: 600px;
+	height: 100%;
+	background-color: #080808;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.cajaInferior h1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.cajaInferior:before {
+	margin-top: 20px;
+	content: " ";
+    display:block;
+    position: relative;
+	top:0px;
+	left:0px;
+    width:100%;
+    height:15px;
+    background: linear-gradient(#222222 0%, transparent 0%), linear-gradient(135deg, #080808	 33.33%, transparent 33.33%) 0 0%, #080808	 linear-gradient(45deg, #080808	 33.33%, #222222 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#222222 0%, transparent 0%), -webkit-linear-gradient(135deg, #080808	 33.33%, transparent 33.33%) 0 0%, #080808	 -webkit-linear-gradient(45deg, #080808	 33.33%, #222222 33.33%) 0 0%;
+    background: -o-linear-gradient(#222222 0%, transparent 0%), -o-linear-gradient(135deg, #080808	 33.33%, transparent 33.33%) 0 0%, #080808	 -o-linear-gradient(45deg, #080808	 33.33%, #222222 33.33%) 0 0%;
+    background: -moz-linear-gradient(#222222 0%, transparent 0%), -moz-linear-gradient(135deg, #080808	 33.33%, transparent 33.33%) 0 0%, #080808	 -moz-linear-gradient(45deg, #080808	 33.33%, #222222 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 20px 15px, 20px 15px;
+}
+
+.cajaInferior form {
+	margin-top: 12px;
+}
+
+#top {
+	min-width: 900px;
+	font-size: 80px;
+	text-align: center;
+	line-height: 110px;
+	height: 100px;
+}
+
+/*=================> FALTA POR HACER <=================*/
+.mensaje {
+	position: absolute;
+	padding-bottom:5px;
+	padding-top:5px;
+	font-size: 35px;
+	background-color: rgba(0,0,0,.4);
+	width: 100%;
+	min-width: 400px;
+	text-align: center;
+	top: 15px;
+}
+/*====================> FIN FALTA <====================*/

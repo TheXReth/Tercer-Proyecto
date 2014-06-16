@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>buscar</servlet-name>
+		<servlet-class>servlets.Buscar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>buscar</servlet-name>
+		<url-pattern>/buscar/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>carritoAjax</servlet-name>
+		<servlet-class>servlets.CarritoAjax</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>carritoAjax</servlet-name>
+		<url-pattern>/carritoAjax/*</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>decrementar</servlet-name>
+		<servlet-class>servlets.Decrementar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>decrementar</servlet-name>
+		<url-pattern>/decrementar/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>eliminar</servlet-name>
+		<servlet-class>servlets.Eliminar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eliminar</servlet-name>
+		<url-pattern>/eliminar/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaciar</servlet-name>
+		<servlet-class>servlets.Vaciar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>vaciar</servlet-name>
+		<url-pattern>/vaciar/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>eliminarCom</servlet-name>
+		<servlet-class>servlets.EliminarComentario</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eliminarCom</servlet-name>
+		<url-pattern>/eliminarComentario/*</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>panelCarritos</servlet-name>
+		<servlet-class>servlets.PanelCarritos</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>panelCarritos</servlet-name>
+		<url-pattern>/panelCarritos/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificar</servlet-name>
+		<servlet-class>servlets.Modificar</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>modificar</servlet-name>
+		<url-pattern>/modificar/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>consultar</servlet-name>
+		<servlet-class>servlets.Consultar</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>consultar</servlet-name>
+		<url-pattern>/consultar/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>zonaAdmin</servlet-name>
+		<servlet-class>servlets.ZonaAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>zonaAdmin</servlet-name>
+		<url-pattern>/zonaAdmin/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>carritos</servlet-name>
+		<servlet-class>servlets.Carritos</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>carritos</servlet-name>
+		<url-pattern>/carrito/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>posteoComentarios</servlet-name>
+		<servlet-class>servlets.Posteo</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>posteoComentarios</servlet-name>
+		<url-pattern>/posteo.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>main</servlet-name>
+		<servlet-class>servlets.Main</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>main</servlet-name>
+		<url-pattern>/main/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>entrar</servlet-name>
+		<servlet-class>servlets.Entrar</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>entrar</servlet-name>
+		<url-pattern>/entrar/*</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>crear</servlet-name>
+		<servlet-class>servlets.Crear</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>crear</servlet-name>
+		<url-pattern>/crear/*</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>producto</servlet-name>
+		<servlet-class>servlets.Productos</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>producto</servlet-name>
+		<url-pattern>/producto/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>inicio</servlet-name>
+		<servlet-class>servlets.Inicio</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>inicio</servlet-name>
+		<url-pattern>/inicio/*</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>inicio</welcome-file>
+	</welcome-file-list>
+
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
